@@ -3,84 +3,92 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>JujiRiri ❤️</title>
-  <meta name="description" content="Lovely Apps by Juji and Riri | Pocket of Love · Mindful Treats · Elsewhere Pomodoro">
-  <meta property="og:title" content="JujiRiri ❤️">
-  <meta property="og:description" content="Lovely Apps by Juji and Riri">
+  <title>JujiRiri</title>
+  <meta name="description" content="Happy Apps for a Happy Life — Pocket of Love · Mindful Treats · Elsewhere Pomodoro">
+  <meta property="og:title" content="JujiRiri">
+  <meta property="og:description" content="Happy Apps for a Happy Life">
   <meta property="og:image" content="images/og.png">
   <meta property="og:type" content="website">
   <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Esteban&family=Inter:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <img src="images/logo.png" alt="JujiRiri" class="logo">
-    <h1>JujiRiri</h1>
-    <p class="tagline">Happy Apps for a Happy Life</p>
-  </header>
+  <!-- Sticky Nav -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">JujiRiri</span>
+      <a href="#contact" class="nav-support">Support</a>
+    </div>
+  </nav>
 
-  <main>
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Happy Apps for a Happy Life</h1>
+  </section>
 
-    <!-- Pocket of Love -->
-    <section class="app" id="pocket-of-love">
-      <div class="app-info">
-        <h2>Pocket of Love</h2>
-        <p>Cute little friends bringing you daily affirmations 🥰</p>
-        <a href="https://apps.apple.com/us/app/pocket-of-love-affirmations/id6502180419?itsct=apps_box_badge&itscg=30200"
-           target="_blank" rel="noopener" class="app-store-btn">
-          <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us"
-               alt="Download on the App Store">
-        </a>
-      </div>
-      <div class="screenshots">
-        <img src="images/pocket-of-love/1.jpg" alt="Pocket of Love screenshot 1">
-        <img src="images/pocket-of-love/2.jpg" alt="Pocket of Love screenshot 2">
-        <img src="images/pocket-of-love/3.jpg" alt="Pocket of Love screenshot 3">
-      </div>
-    </section>
+  <!-- App Cards -->
+  <main class="apps">
 
     <!-- Mindful Treats -->
-    <section class="app reverse" id="mindful-treats">
-      <div class="app-info">
-        <h2>Mindful Treats</h2>
-        <p>Your little Tarot-inspired mindfulness app with mood tracking, affirmation cookies and breath meditation. Reflective, private, and connected to Apple Health.</p>
-        <a href="https://apps.apple.com/app/mindful-treats/id6758162680?itsct=apps_box_badge&itscg=30200"
-           target="_blank" rel="noopener" class="app-store-btn">
-          <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us"
-               alt="Download on the App Store">
-        </a>
-      </div>
+    <div class="app-card app-card--featured">
+      <h2 class="app-name">Mindful Treats</h2>
+      <img src="images/mindful-treats-icon.png" alt="Mindful Treats icon" class="app-icon">
+      <p class="app-desc">Your little Tarot-inspired mindfulness app with mood tracking, affirmation cookies and breath meditation. It's reflective, it's private, and it connects directly to your Apple Health so you can treat your mental health with the same care as your physical.</p>
       <div class="screenshots">
         <img src="images/mindful-treats/11.jpg" alt="Mindful Treats screenshot 1">
         <img src="images/mindful-treats/21.jpg" alt="Mindful Treats screenshot 2">
         <img src="images/mindful-treats/31.jpg" alt="Mindful Treats screenshot 3">
+        <img src="images/mindful-treats/41.jpg" alt="Mindful Treats screenshot 4">
+        <img src="images/mindful-treats/51.jpg" alt="Mindful Treats screenshot 5">
+        <img src="images/mindful-treats/61.jpg" alt="Mindful Treats screenshot 6">
       </div>
-    </section>
+      <a href="https://apps.apple.com/app/mindful-treats/id6758162680?itsct=apps_box_badge&itscg=30200"
+         target="_blank" rel="noopener" class="app-store-btn">
+        <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us"
+             alt="Download on the App Store" width="156" height="52">
+      </a>
+    </div>
 
-    <!-- Elsewhere Pomodoro -->
-    <section class="app" id="elsewhere-pomodoro">
-      <div class="app-info">
-        <h2>Elsewhere Pomodoro</h2>
-        <p>Tasty Pomodoro with ambient sounds from around the World! 🌍</p>
+    <!-- Two-column row -->
+    <div class="app-row">
+
+      <!-- Pocket of Love -->
+      <div class="app-card app-card--featured">
+        <h2 class="app-name">Pocket of Love</h2>
+        <img src="images/pocket-of-love-icon.png" alt="Pocket of Love icon" class="app-icon">
+        <p class="app-desc">Cute little friends bringing you daily affirmations 🥰</p>
+        <a href="https://apps.apple.com/us/app/pocket-of-love-affirmations/id6502180419?itsct=apps_box_badge&itscg=30200"
+           target="_blank" rel="noopener" class="app-store-btn">
+          <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us"
+               alt="Download on the App Store" width="156" height="52">
+        </a>
+      </div>
+
+      <!-- Elsewhere Pomodoro -->
+      <div class="app-card app-card--featured">
+        <h2 class="app-name">Elsewhere Pomodoro</h2>
+        <img src="images/elsewhere-icon.png" alt="Elsewhere Pomodoro icon" class="app-icon">
+        <p class="app-desc">Tasty Pomodoro with ambient sounds from around the World! 🌍</p>
         <a href="https://apps.apple.com/app/elsewhere-pomodoro/id6751784628?itsct=apps_box_badge&itscg=30200"
            target="_blank" rel="noopener" class="app-store-btn">
           <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us"
-               alt="Download on the App Store">
+               alt="Download on the App Store" width="156" height="52">
         </a>
       </div>
-      <div class="screenshots">
-        <img src="images/elsewhere-pomodoro/1.jpg" alt="Elsewhere Pomodoro screenshot 1">
-        <img src="images/elsewhere-pomodoro/2.jpg" alt="Elsewhere Pomodoro screenshot 2">
-      </div>
-    </section>
+
+    </div>
 
   </main>
 
-  <footer>
-    <div class="footer-content">
-      <div class="footer-section">
-        <h3>Company</h3>
+  <!-- Footer / Contact -->
+  <footer id="contact">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h3>Contact</h3>
         <address>
           Dejudom &amp; Peinelt GbR<br>
           Schwedter Str. 235<br>
@@ -93,14 +101,14 @@
           <a href="mailto:contact@jujiriri.com">contact@jujiriri.com</a>
         </address>
       </div>
-      <div class="footer-section">
+      <div class="footer-col">
         <h3>Legal</h3>
-        <ul>
-          <li><a href="https://www.iubenda.com/privacy-policy/47516291" target="_blank" rel="noopener">Privacy Policy</a></li>
-          <li><a href="https://www.iubenda.com/privacy-policy/47516291/cookie-policy" target="_blank" rel="noopener">Cookie Policy</a></li>
-        </ul>
-        <p class="copyright">© Dejudom &amp; Peinelt GbR. All rights reserved.<br>
+        <p>© Dejudom &amp; Peinelt GbR. All rights reserved.<br>
         Apple, the Apple logo, iPhone, and App Store are trademarks of Apple Inc.</p>
+        <p>
+          <a href="https://www.iubenda.com/privacy-policy/47516291" target="_blank" rel="noopener">Privacy Policy</a><br>
+          <a href="https://www.iubenda.com/privacy-policy/47516291/cookie-policy" target="_blank" rel="noopener">Cookie Policy</a>
+        </p>
       </div>
     </div>
   </footer>
