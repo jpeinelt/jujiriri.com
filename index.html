@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>JujiRiri</title>
-  <meta name="description" content="Happy Apps for a Happy Life — Pocket of Love · Mindful Treats · Elsewhere Pomodoro">
+  <title>JujiRiri — Happy Apps for a Happy Life</title>
+  <meta name="description" content="Happy Apps for a Happy Life — Color Curator · Mindful Treats · Pocket of Love · Elsewhere Pomodoro">
   <meta property="og:title" content="JujiRiri">
   <meta property="og:description" content="Happy Apps for a Happy Life">
   <meta property="og:image" content="images/og.png">
@@ -12,7 +12,7 @@
   <link rel="icon" href="images/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Esteban&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Esteban&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,23 +20,73 @@
   <!-- Sticky Nav -->
   <nav class="nav">
     <div class="nav-inner">
-      <span class="nav-logo">JujiRiri</span>
-      <a href="#contact" class="nav-support">Support</a>
+      <a href="#top" class="nav-logo">JujiRiri</a>
+      <div class="nav-links">
+        <a href="#apps">Apps</a>
+        <a href="#contact" class="nav-support">Support</a>
+      </div>
     </div>
   </nav>
 
-  <!-- Hero -->
-  <section class="hero">
-    <h1>Happy Apps for a Happy Life</h1>
-  </section>
+  <!-- Hero: Color Curator -->
+  <header class="hero" id="top">
+    <div class="blob blob--yellow"></div>
+    <div class="blob blob--pink"></div>
 
-  <!-- App Cards -->
-  <main class="apps">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="badge">✨ Just launched</span>
+        <img src="images/color-curator-icon.png" alt="Color Curator icon" class="hero-icon">
+        <h1>Know your colors.<br><em>Use them everywhere.</em></h1>
+        <p class="hero-sub">
+          Color Curator finds your color season and keeps all 96 of your colors in your pocket.
+          Smart Match holds a real garment up against your palette while you shop — so you can
+          leave the paper swatches at home.
+        </p>
+
+        <div class="swatches" aria-hidden="true">
+          <span style="--c:#eb178f"></span>
+          <span style="--c:#f4a340"></span>
+          <span style="--c:#ffde59"></span>
+          <span style="--c:#00a97f"></span>
+          <span style="--c:#99b9d1"></span>
+          <span style="--c:#8f39b6"></span>
+          <span style="--c:#f59e85"></span>
+        </div>
+
+        <div class="hero-cta">
+          <a href="https://apps.apple.com/app/color-curator/id6787164029?itsct=apps_box_badge&itscg=30200"
+             target="_blank" rel="noopener" class="app-store-btn">
+            <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us"
+                 alt="Download Color Curator on the App Store" width="156" height="52">
+          </a>
+          <a href="https://colorcuratorapp.com" target="_blank" rel="noopener" class="btn-ghost">
+            colorcuratorapp.com →
+          </a>
+        </div>
+        <p class="hero-note">One-time purchase · No subscription · Stays on your iPhone</p>
+      </div>
+
+      <div class="hero-shots">
+        <img src="images/color-curator/palette-grid.webp" alt="Color Curator: your 96-color palette">
+        <img src="images/color-curator/smart-match.webp" alt="Color Curator: Smart Match compares a garment to your palette">
+        <img src="images/color-curator/favorites.webp" alt="Color Curator: saved favorite color combinations">
+        <img src="images/color-curator/color-cards.webp" alt="Color Curator: color cards">
+      </div>
+    </div>
+  </header>
+
+  <!-- More apps -->
+  <main class="apps" id="apps">
+    <div class="section-head">
+      <h2>More Happy Apps</h2>
+      <p>Small, private, joyful things we make in Berlin.</p>
+    </div>
 
     <!-- Mindful Treats -->
-    <div class="app-card app-card--featured">
-      <h2 class="app-name">Mindful Treats</h2>
+    <section class="app-card app-card--featured">
       <img src="images/mindful-treats-icon.png" alt="Mindful Treats icon" class="app-icon">
+      <h3 class="app-name">Mindful Treats</h3>
       <p class="app-desc">Your little Tarot-inspired mindfulness app with mood tracking, affirmation cookies and breath meditation. It's reflective, it's private, and it connects directly to your Apple Health so you can treat your mental health with the same care as your physical.</p>
       <div class="screenshots">
         <img src="images/mindful-treats/11.jpg" alt="Mindful Treats screenshot 1">
@@ -49,39 +99,38 @@
       <a href="https://apps.apple.com/app/mindful-treats/id6758162680?itsct=apps_box_badge&itscg=30200"
          target="_blank" rel="noopener" class="app-store-btn">
         <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us"
-             alt="Download on the App Store" width="156" height="52">
+             alt="Download Mindful Treats on the App Store" width="156" height="52">
       </a>
-    </div>
+    </section>
 
     <!-- Two-column row -->
     <div class="app-row">
 
       <!-- Pocket of Love -->
-      <div class="app-card app-card--featured">
-        <h2 class="app-name">Pocket of Love</h2>
+      <section class="app-card app-card--featured">
         <img src="images/pocket-of-love-icon.png" alt="Pocket of Love icon" class="app-icon">
+        <h3 class="app-name">Pocket of Love</h3>
         <p class="app-desc">Cute little friends bringing you daily affirmations 🥰</p>
         <a href="https://apps.apple.com/us/app/pocket-of-love-affirmations/id6502180419?itsct=apps_box_badge&itscg=30200"
            target="_blank" rel="noopener" class="app-store-btn">
           <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us"
-               alt="Download on the App Store" width="156" height="52">
+               alt="Download Pocket of Love on the App Store" width="156" height="52">
         </a>
-      </div>
+      </section>
 
       <!-- Elsewhere Pomodoro -->
-      <div class="app-card app-card--featured">
-        <h2 class="app-name">Elsewhere Pomodoro</h2>
+      <section class="app-card app-card--featured">
         <img src="images/elsewhere-icon.png" alt="Elsewhere Pomodoro icon" class="app-icon">
+        <h3 class="app-name">Elsewhere Pomodoro</h3>
         <p class="app-desc">Tasty Pomodoro with ambient sounds from around the World! 🌍</p>
         <a href="https://apps.apple.com/app/elsewhere-pomodoro/id6751784628?itsct=apps_box_badge&itscg=30200"
            target="_blank" rel="noopener" class="app-store-btn">
           <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us"
-               alt="Download on the App Store" width="156" height="52">
+               alt="Download Elsewhere Pomodoro on the App Store" width="156" height="52">
         </a>
-      </div>
+      </section>
 
     </div>
-
   </main>
 
   <!-- Footer / Contact -->
